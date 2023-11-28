@@ -17,7 +17,7 @@ public:
 		: str{ new char[strlen(istr) + 1] },
 		length(strlen(istr))
 	{
-		strcpy_s(str,length,istr);
+		strcpy_s(str,length + 1,istr);
 	}
 
 	~String()
