@@ -14,4 +14,7 @@ int main() {
 	str1.coutstr();
 	str2.coutstr();
 	str3.coutstr();
+
+	int a = String::obj();
+	cout << a << endl;
 }
